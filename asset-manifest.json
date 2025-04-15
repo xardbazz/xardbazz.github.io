@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/xardbazz.github.io/static/css/main.9c1999ef.css",
+    "main.js": "/xardbazz.github.io/static/js/main.a52a626e.js",
+    "static/js/845.bea882d0.chunk.js": "/xardbazz.github.io/static/js/845.bea882d0.chunk.js",
+    "index.html": "/xardbazz.github.io/index.html",
+    "main.9c1999ef.css.map": "/xardbazz.github.io/static/css/main.9c1999ef.css.map",
+    "main.a52a626e.js.map": "/xardbazz.github.io/static/js/main.a52a626e.js.map",
+    "845.bea882d0.chunk.js.map": "/xardbazz.github.io/static/js/845.bea882d0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c1999ef.css",
+    "static/js/main.a52a626e.js"
+  ]
+}
