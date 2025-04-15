@@ -1,0 +1,113 @@
+.projects {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 100px 0; /* Added padding to account for fixed navbar */
+}
+
+.projects .projectTitle {
+  text-align: center;
+  color: #3e497a;
+  font-size: 60px;
+  font-weight: bolder;
+  margin-bottom: 40px; /* Kept original margin */
+}
+
+.projectList {
+  margin-top: 50px;
+  width: 75vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+  gap: 100px; /* Added gap instead of margin for better grid control */
+}
+
+/* MENU ITEM STYLING - Preserved original dimensions */
+.projectItem {
+  border-radius: 15px;
+  width: 400px;
+  height: 280px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: all 0.3s ease-in-out; /* Enhanced transition */
+  overflow: hidden; /* Ensures content stays within bounds */
+}
+
+.projectItem:hover {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  transform: translateY(-5px); /* Added subtle lift effect */
+}
+
+.projectItem .bgImage {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: transform 0.3s ease; /* Smooth image scaling */
+}
+
+.projectItem:hover .bgImage {
+  transform: scale(1.03); /* Subtle zoom effect on hover */
+}
+
+.projectItem h1 {
+  font-size: 25px;
+  margin: 15px 0; /* Kept original spacing */
+  color: #3e497a;
+}
+
+/* Responsive Enhancements */
+@media only screen and (max-width: 1300px) {
+  .projectList {
+    grid-template-columns: 1fr 1fr;
+    width: 80vw; /* Slightly wider for better spacing */
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .projects .projectTitle {
+    font-size: 50px; /* Slightly smaller title */
+  }
+  
+  .projectList {
+    width: 90vw;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .projectList {
+    grid-template-columns: 1fr;
+    width: 100%;
+    padding: 0 20px; /* Added side padding */
+  }
+  
+  .projectItem {
+    width: 300px;
+    height: 300px;
+    margin: 20px 0; /* Converted margin to vertical only */
+  }
+  
+  .projects .projectTitle {
+    font-size: 40px; /* More mobile-friendly size */
+    padding: 0 20px; /* Prevent text from touching edges */
+  }
+}
+
+/* Accessibility enhancement for touch devices */
+@media (hover: none) {
+  .projectItem:hover {
+    transform: none;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .projectItem:active {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  }
+}

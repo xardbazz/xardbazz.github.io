@@ -1,0 +1,7 @@
+echo "build/" >> .gitignore
+git add .gitignore
+git commit -m "Ignore build folder"
+node_modules/
+build/
+.env
+.DS_Store
