@@ -39,21 +39,21 @@ function Experience() {
 
           <VerticalTimelineElement 
           className = "vertical-timeline-element--education" 
-          date = "Jan 2016 - Dec 2016" 
+          date = "Jan 2019 - Mar 2020" 
           iconStyle = {{background: "#e9d35b", color: "#fff"}}
           icon = {<WorkIcon/>}
           >
             <h3 className="vertical-timeline-element-title">
-              SEGi University and College, Kota Damansara, Selangor, Student consular | Student helper 
+            Internship (SEGI - EVE)
             </h3>
             <p>
-            	Counselling and handling of new students (Show them around university, convince them of choosing SEGi as their next educational destination)
+            	Counselling and handling of new students (Show them around university, convince them of choosing SEGi as their next educational destination) also Designed UI/UX for a mobile application 
             </p>
           </VerticalTimelineElement>
 
-      <VerticalTimelineElement 
+          <VerticalTimelineElement 
           className = "vertical-timeline-element--education" 
-          date = "Sep 2018 - Feb 2019" 
+          date = "Jan 2021 - Dec 2022" 
           iconStyle = {{background: "#e9d35b", color: "#fff"}}
           icon = {<WorkIcon/>}
           >
@@ -61,85 +61,56 @@ function Experience() {
             M-Service | Russia, Dubna | Sales – Engineering/ Technical/IT
             </h3>
             <p>
-            Cashier and one-man shop manager, Computer hardware and software consultant
+            Cashier and one-man shop manager, Computer hardware and software consultant, Diagnosed and repaired computer/mobile devices, Managed component deliveries.
             </p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement 
           className = "vertical-timeline-element--education" 
-          date = "Jun 2020 - Aug 2020" 
+          date = "Jan 2023 - Dec 2023 " 
           iconStyle = {{background: "#e9d35b", color: "#fff"}}
           icon = {<WorkIcon/>}
           >
             <h3 className="vertical-timeline-element-title">
-            EVE Psychosocial Rehabilitation Centre | Internship student
+            Freelance (SMS-Man - signature living)
             </h3>
             <p>
-            Fully design a mobile application UI/UX for patients and employees, using Adobe XD
+            Multilingual Technical Support & Customer Host,
+            SEO Specialist,
+            Localization & Translation Specialist,
+            Sales & Marketing Specialist,
             </p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement 
           className = "vertical-timeline-element--education" 
-          date = "Mar 2021 - May 2021 " 
+          date = "Jan 2024 - July 2024 " 
           iconStyle = {{background: "#e9d35b", color: "#fff"}}
           icon = {<WorkIcon/>}
           >
             <h3 className="vertical-timeline-element-title">
-            M-Service | Russia, Dubna | Sales – Engineering/ Technical/IT
+            DNS		Store Manager
             </h3>
             <p>
-            Hardware aspects: repairs and diagnostics of computers and mobile phones, 
-            Software aspects: A wide knowledge on software based applications that are used in computer repairs and software repairs
+            Enhanced service, optimized inventory, boosted sales, maintained cleanliness, resolved issues quickly, improved teamwork, automated processes with 1C.
+            </p>
+          </VerticalTimelineElement>
+    
+          <VerticalTimelineElement 
+          className = "vertical-timeline-element--education" 
+          date = "Aug  2024 - Preasnt " 
+          iconStyle = {{background: "#e9d35b", color: "#fff"}}
+          icon = {<WorkIcon/>}
+          >
+            <h3 className="vertical-timeline-element-title">
+            Hmel and Solod, IT Specialist | Tech support
+            </h3>
+            <p>
+            PCs & laptops (hardware repair/replacement), Monitors, printers, scanners (setup, repair, maintenance), Cash registers (ATOL/KKT setup), barcode scannerNetworking (routers, IP, VPN, servers, surveillance cameras), Sber terminals (basic Putty setup), Linux, VMware, remote support (Okdesk)
             </p>
           </VerticalTimelineElement>
 
-          <VerticalTimelineElement 
-          className = "vertical-timeline-element--education" 
-          date = "Nov 2021 - April 2023 " 
-          iconStyle = {{background: "#e9d35b", color: "#fff"}}
-          icon = {<WorkIcon/>}
-          >
-            <h3 className="vertical-timeline-element-title">
-            M-Service | Russia, Dubna | Delivery Person
-            </h3>
-            <p>
-            Delivery of Tech for computer and mobile repairs from designated locations
-            Providing utmost care with handling fragile items 
-            </p>
-          </VerticalTimelineElement>
-
-          <VerticalTimelineElement 
-          className = "vertical-timeline-element--education" 
-          date = "April 2023 - July 2023 " 
-          iconStyle = {{background: "#e9d35b", color: "#fff"}}
-          icon = {<WorkIcon/>}
-          >
-            <h3 className="vertical-timeline-element-title">
-            Signature Living | Real Estate Agent
-            </h3>
-            <p>
-            Guest welcoming and getting them settled in our apartments for rent 
-            Listing and solving guest complaints of any sort with utmost care
-            </p>
-          </VerticalTimelineElement>
-
-          <VerticalTimelineElement 
-          className = "vertical-timeline-element--education" 
-          date = "July 2023 - Present" 
-          iconStyle = {{background: "#e9d35b", color: "#fff"}}
-          icon = {<WorkIcon/>}
-          >
-            <h3 className="vertical-timeline-element-title">
-            LIKNOT | Sales Marketing Manager
-            </h3>
-            <p>
-            Spearheading company awareness on social media platforms. 
-            Crafting engaging blogs and articles for dissemination across diverse news websites. 
-            Micro-managing revenue generated through sales.
-            </p>
-          </VerticalTimelineElement>
-      </VerticalTimeline>
+         </VerticalTimeline>
     </div>
   )
 }

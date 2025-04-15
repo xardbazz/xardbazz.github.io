@@ -9,7 +9,7 @@
   
 .wrapper {
   padding: 40px;
-  border: 2px solid red;
+/*  border: 2px solid red; */
 }
 
 .image--cover {
@@ -18,7 +18,7 @@
   border-radius: 50%;
   object-fit: cover;
   object-position: center;
-  border: 3px solid blue;
+  border: 3px solid black;
 }
 
 .about {

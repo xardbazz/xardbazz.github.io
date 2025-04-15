@@ -29,8 +29,8 @@ function Home() {
             <p>
               A software developer with a passion for learning and creating
             </p>
-              <a href="https://www.linkedin.com/in/kamal-issa-075636204/"><LinkedInIcon /></a>
-              <a href="https://mail.google.com/mail/u/1/#inbox?compose=CllgCJvqsPsFrLtsFCqjLXGbnWkMxFbtlCsdVMbvqpZscVNlhLRkjBffTZGZlfCssZNZgLSmBKg"><EmailIcon /></a>
+              <a href="https://www.linkedin.com/in/kamaloissa/"><LinkedInIcon /></a>
+              <a href="https://mail.google.com/mail/?view=cm&to=kamalissa96@gmail.com"><EmailIcon /></a>
               <a href="https://github.com/xardbazz"><GithubIcon /></a>
           </div>
         </div>
@@ -54,7 +54,14 @@ function Home() {
                 <h2>Softwares</h2>
                 <span>
                   Windows, Adobe Full, Microsoft Office, Android, Microsoft Visual Studio,
-                  Android Studio, Sublime Text, and various social media platforms
+                  Android Studio, Sublime Text, and various social media platforms, VMWare,
+                  !C, Virtual Machines, SetRetail, Frontol, HikVision
+                </span>
+              </li>
+              <li className = "item">
+                <h2>Harware</h2>
+                <span>
+                  Computer repairs, printers, Monitors, Basic TV setup, Routers, Surveillance,
                 </span>
               </li>
             </ol>
