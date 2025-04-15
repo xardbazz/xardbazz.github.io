@@ -11,7 +11,7 @@ function ProjectDisplay() {
       <div className = "project">
         <h1>{project.name}</h1>
         <img 
-         src={`${process.env.PUBLIC_URL}/images/${project.image}`}
+         src={`${process.env.PUBLIC_URL}/${project.image}`}
          alt={project.name}
          />
         <p>
