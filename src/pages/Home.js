@@ -55,11 +55,11 @@ function Home() {
                 <span>
                   Windows, Adobe Full, Microsoft Office, Android, Microsoft Visual Studio,
                   Android Studio, Sublime Text, and various social media platforms, VMWare,
-                  !C, Virtual Machines, SetRetail, Frontol, HikVision
+                  1C, Virtual Machines, SetRetail, Frontol, HikVision
                 </span>
               </li>
               <li className = "item">
-                <h2>Harware</h2>
+                <h2>Hardware</h2>
                 <span>
                   Computer repairs, printers, Monitors, Basic TV setup, Routers, Surveillance,
                 </span>
