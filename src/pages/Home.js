@@ -61,7 +61,7 @@ function Home() {
               <li className = "item">
                 <h2>Hardware</h2>
                 <span>
-                  Computer repairs, printers, Monitors, Basic TV setup, Routers, Surveillance,
+                  Computer repairs, printers, Monitors, Basic TV setup, Routers, Surveillance, mobile phones IOS/Android
                 </span>
               </li>
             </ol>
