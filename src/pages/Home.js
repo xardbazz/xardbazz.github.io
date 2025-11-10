@@ -53,7 +53,7 @@ function Home() {
               <li className = "item">
                 <h2>Softwares</h2>
                 <span>
-                  Windows, Adobe Full, Microsoft Office, Android, Microsoft Visual Studio,
+                  Windows, Windows Servers, MacOS, Linux, Adobe Full, Microsoft Office, Android, Microsoft Visual Studio,
                   Android Studio, Sublime Text, and various social media platforms, VMWare,
                   1C, Virtual Machines, SetRetail, Frontol, HikVision
                 </span>
